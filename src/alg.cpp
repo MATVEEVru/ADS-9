@@ -4,9 +4,7 @@
 #include  <locale>
 #include  <cstdlib>
 #include  "bst.h"
-
 BST<std::string> makeTree(const char* filename) {
-  // поместите сюда свой код
   BST<std::string> Drevo;
   std::ifstream fin(filename);
   char tempr;
@@ -33,5 +31,4 @@ BST<std::string> makeTree(const char* filename) {
   }
   fin.close();
   return Drevo;
-}
 }
