@@ -33,4 +33,3 @@ BST<std::string> makeTree(const char* filename) {
   fin.close();
   return Drevo;
 }
-}
